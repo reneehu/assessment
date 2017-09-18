@@ -114,7 +114,7 @@ exports.arraysAnswers = {
 
   findAllOccurrences: function(arr, target) {
     var allDup = arr.map((i,index) => i === target ? index : '').filter(i => i !== '');
-    console.log(allDup);
+    // console.log(allDup);
     return allDup;
 
 //     var ret = [];

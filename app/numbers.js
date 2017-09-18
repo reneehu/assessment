@@ -14,6 +14,7 @@ exports.numbersAnswers = {
   },
 
   multiply: function(a, b) {
-
+  	console.log(parseFloat(a*b).toFixed(1))
+  	return parseFloat(a*b).toFixed(1);
   }
 };
